@@ -1,0 +1,172 @@
+* {
+    font-size: 20px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #ecebeb;
+}
+
+th {
+    height: 50px;
+}
+
+span {
+    width: 70%;
+    display: block;
+}
+
+#selectTipoPost, .inputEdit {
+    height: 55px;
+}
+
+#container {
+    margin-top: 20px;
+    width: 40em;
+    display: flex;
+    flex-direction: column;
+}
+
+#acoesSelect {
+    position: relative;
+    left: 100px;
+}
+
+.table {
+    padding: 30px;
+}
+
+.table span {
+    font-weight: bold;
+    color: #373737;
+    text-align: center;
+}
+
+.nomePokemon, .inputEdit {
+    position: relative;
+    top: 8px;
+}
+
+.table button {
+    width: 100px;
+    font-size: 20px;
+    color: black;
+    margin: 5px;
+    position: relative;
+    left: 30px;
+}
+
+.img-fluid {
+    width: 70px;
+    height: 70px;
+}
+
+.posicao-margin {
+    position: relative;
+    right: 20px;
+}
+
+.edit {
+    display: none;
+}
+
+/*TIPOS POKEMON -- INICIO*/
+.Aço {
+    background-color: #f4f4f4;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.Fogo {
+    background-color: #cf1b1b95;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.Planta {
+    background-color: #38d443;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.Elétrico {
+    background-color: #ffd500;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.Água,
+.Gelo {
+    background-color: #428bac;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.Terra {
+    background-color: #db9147;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.Pedra {
+    background-color: #6d684d;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.Fada {
+    background-color: #9f5dab;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.Veneno {
+    background-color: #44152f;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.Inseto {
+    background-color: #ac7d3d;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.Dragão {
+    background-color: #5977af;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.Psíquico {
+    background-color: #c2469d;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.Voador {
+    background-color: #a5989898;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.Lutador {
+    background-color: #865143;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.Normal {
+    background-color: #958f5c;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.Místico {
+    background-color: #7c2288;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+/*TIPOS POKEMON -- FIM*/
